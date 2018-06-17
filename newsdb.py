@@ -38,18 +38,19 @@ def get_day_with_more_request_errors():
 
 print('Top Three Articles in all time:')
 for data in get_popular_three_articles():
-    print(str(data[0]), str(data[1])+" views")
+    print(str(data[0]), str(data[1])+" views") # data[0] => represent title coulmn , data[1] => represent views coulmn
 
 print("\n")
 
 print("most popular article authors:")
 for data in get_most_popular_article_authors():
-    print(str(data[0]), str(data[1]) + " views")
+    print(str(data[0]), str(data[1]) + " views") # data[0] => represent name coulmn , data[1] => represent Sum of views coulmn
 
 print("\n")
 
 print("day with more errors")
 for data in get_day_with_more_request_errors():
-    print(str(data[0]), str(data[1]) + " % errors")
+    print(str(data[0]), str(data[1]) + " % errors") # data[0] => represent day , data[1] => represent precentage of error
+
 
     conn.close()
