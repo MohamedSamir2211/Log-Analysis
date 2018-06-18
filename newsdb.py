@@ -27,6 +27,7 @@ def get_most_popular_article_authors():
 
 def get_day_with_more_request_errors():
     """ Return the day with more request errors """
+    # use Conditional Expressions to count the results of the condition where status like anything begin with 404
     query = '''Select to_char(time,'YYYY-MON-DD') as day,round((count(case when status
              like '404%' then 1 else Null End)::numeric/
              count(*)::numeric)*100,2)
