@@ -19,10 +19,9 @@ The project is a internal reporting tool that use information from database to d
 	  );
       ```
 
-### The project consist of 3 main functions as following:
-  * The **get_popular_three_articles**  To Return most popular three articles.
-  * The **get_most_popular_article_authors** To Return most popular article authors.
-  * The **get_day_with_more_request_errors** To to get the days on which the requests lead to more than 1% errors.
+### The project consist of one main function:
+  * The **execute_query()**  Function Used To Execute Different Queries.
+  
 
 ### How it works:
   1. you should install python3 from  [here](https://www.python.org/downloads/).
