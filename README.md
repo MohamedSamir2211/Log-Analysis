@@ -19,8 +19,14 @@ The project is a internal reporting tool that use information from database to d
 	  );
       ```
 
-### The project consist of one main function:
-  * The **execute_query()**  Function Used To Execute Different Queries.
+### The project consist of Four functions:
+  * The **execute_query()**          Function Used To Execute Different Queries.
+  * The **print_top_articles()**     Function Used To Prints out the top 3 articles of all time.
+  * The **print_top_authors()**      Function Used To Prints a list of authors ranked by article views.
+  * The **print_errors_over_one()**  Function Used To Prints out the days where more than 1% errors.
+  
+
+  
   
 
 ### How it works:
